@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+text=Label(root,text='MY FIRST TKINTER WIDGET""LABEL""')
+text.pack()
+button=Button(root,text='CLICK HERE')
+button.pack()
+entry=Entry(root)
+text=Text(root)
+text.pack()
+entry.pack()
+root.mainloop()
